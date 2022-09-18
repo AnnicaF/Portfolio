@@ -1,0 +1,137 @@
+/*skills */
+
+.skills{
+  background-color: pink;
+  height: 800px;
+  width: 100%;
+}
+.skills-text h2{
+  font-size: 30px;
+}
+.skills-text h3{
+  font-size: 40px;
+}
+.icon-container{
+  text-align: center;
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box-icon{
+  height: 140px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.fa-brands{
+  color: white;
+  font-size: 50px;
+}
+
+.box-icon p{
+  font-size: 18px;
+}
+/*skills end*/
+/*projekter*/
+
+.projekter{
+
+}
+
+.projekt-pic{grid-area: a;}
+.projekt-text{grid-area: b;}
+
+.projekt-box{
+  display: grid;
+  grid-template-areas:
+  'a b';
+  height: auto;
+  padding: 50px;
+  padding-right: 100px;
+  grid-template-columns: 1fr 1fr;
+  line-height: 40px;
+  grid-gap: 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+.projekt-box-1{
+  display: grid;
+  grid-template-areas:
+  'b a';
+  height: auto;
+  padding: 80px;
+  padding-left: 130px;
+  grid-template-columns: 1fr 1fr;
+  line-height: 40px;
+  grid-gap: 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+
+
+.margin{
+  margin-top: 10px;
+}
+
+.margin-top{
+  margin-top: 40px;
+}
+
+
+.italic-text{
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.projekt-text{
+  margin-top: 20px;
+}
+
+.projekt-h3{
+  font-size: 2rem;
+}
+
+.projekt-box img{
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  box-shadow: 3px 3px 5px #2B3F43;
+}
+
+.projekt-box-1 img{
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  box-shadow: 3px 3px 5px #2B3F43;
+}
+
+.projekt-pil{
+display: flex;
+justify-content: flex-end;
+margin-top: 20px;
+}
+
+.line-border{
+  background-color: #000000;
+  height: 1px;
+  width: 100%;
+}
+
+.line-line{
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+
+/* Projekter slut*/
+
+/*om-mig*/
+
+.om-mig{
+  width: 100%;
+  height: 500px;
+  background-color: pink;
+}
